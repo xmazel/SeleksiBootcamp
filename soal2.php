@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Form Validation</title>
-</head>
-<body>
+
 	<form action="" method="POST">
 	<br>
 	Masukkan username :
@@ -18,5 +13,4 @@ if (isset($_POST["submit"])) {
 }
 
 ?>
-</body>
-</html>
+
