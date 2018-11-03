@@ -14,7 +14,7 @@ function isBentrok($a, $b){
 
 	Masukkan jadwal di Amarta<input type="text" name="amarta"><br>
 	Masukkan jadwal di Gor<input type="text" name="gor"><br>
-	<input type="submit" name="submit">
+	<input class="btn btn-primary" type="submit" name="submit">
 </form>
 
 
