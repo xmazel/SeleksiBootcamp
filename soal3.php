@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Bilangan Prima</title>
-</head>
-<body>
-	<table>
+
 <?php
 
 function bilPrima($baris, $kolom){
@@ -31,9 +25,23 @@ $jumPrima = $baris*$kolom;
     } 
 
 }
-echo bilPrima(3,7);
+?>
+<form action="" method="POST">
+	<br>
+Masukkan baris : <input type="text" name="baris"><br>
+Masukkan kolom : <input type="text" name="kolom"><br>
+<input class="btn btn-primary" type="submit" name="submit">
+</form>
+
+<?php
+if (isset($_POST['submit'])) {
+	$baris = $_POST['baris'];
+	$kolom = $_POST['kolom'];	
+	echo "Baris : ".$baris."<br>";
+	echo "Kolom : ".$kolom."<br>";
+	echo bilPrima($baris,$kolom);
+}
+
+
 
 ?>
-</table>
-</body>
-</html>
