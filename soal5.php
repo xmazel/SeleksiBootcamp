@@ -10,7 +10,7 @@ function countChar($string, $char){
 	<br>
 <label>Masukkan String</label><input type="text" name="inputString"><br>
 <label>Masukkan Char</label><input type="text" name="inputChar"><br>
-<input type="submit" name="submit">
+<input class="btn btn-primary" type="submit" name="submit">
 </form>
 
 <?php
